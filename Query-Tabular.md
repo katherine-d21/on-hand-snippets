@@ -9,3 +9,6 @@
 * FragPipe peptide report
   * Specify column names
 > Experiment,Peptide,PrevAA,NextAA,Peptide_Length,Protein_Start,Protein_End,Charges,Probability,Spectral_Count,Intensity,Assigned_Mods,Observed_Mods,Protein,ProteinID,Entry_Name,Gene,Protein_Desc,Mapped_Genes,Mapped_Proteins  
+
+
+include query result column headers: `Yes` > `no comment character prefix`
