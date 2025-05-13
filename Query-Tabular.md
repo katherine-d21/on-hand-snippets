@@ -1,3 +1,12 @@
+Compare lines from 2 tabular outputs
+
+SELECT DISTINCT c2 FROM t2 WHERE c2 IN (SELECT c2 FROM t1);
+
+Count # of duplicates in a tabular file
+
+SELECT c2, COUNT(*) FROM t1 GROUP BY c2 HAVING COUNT(*)>1
+
+
 * BLASTP peptide output
   * Specify column names
 > qseqid,sseqid,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,sallseqid,score,nident,positive,gaps,ppos,qframe,sframe,qseq,sseq,qlen,slen,salltitles
