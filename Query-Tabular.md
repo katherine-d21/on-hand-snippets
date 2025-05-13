@@ -4,7 +4,7 @@ SELECT DISTINCT c2 FROM t2 WHERE c2 IN (SELECT c2 FROM t1);
 
 Count # of duplicates in a tabular file
 
-SELECT c2, COUNT(*) FROM t1 GROUP BY c2 HAVING COUNT(*)>1
+SELECT c2, COUNT(\*) FROM t1 GROUP BY c2 HAVING COUNT(\*)>1
 
 
 * BLASTP peptide output
